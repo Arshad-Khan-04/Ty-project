@@ -1,0 +1,60 @@
+PixelPrint/
+│── assets/
+│   ├── css/              # Stylesheets
+│   │   ├── styles.css    # Global Styles
+│   │   ├── admin.css     # Admin Panel Styles
+│   │   ├── user.css      # User Panel Styles
+│   ├── js/               # JavaScript files
+│   │   ├── script.js     # Main JS file
+│   │   ├── cart.js       # Cart functionality
+│   │   ├── product.js    # Product-related functions
+│   ├── images/           # Images folder
+│── config/
+│   ├── dbconfig.php      # Database connection
+│── includes/
+│   ├── header.php        # Common header
+│   ├── footer.php        # Common footer
+│── admin/
+│   ├── index.php         # Admin dashboard
+│   ├── manage_products.php # Add/Edit/Delete Products
+│   ├── manage_orders.php # Manage Orders
+│   ├── manage_users.php  # User management
+│   ├── manage_reviews.php # Manage reviews
+│   ├── manage_tickets.php # Support tickets
+|   ├── login.php         # User login
+│   ├── register.php      # User registration
+│   ├── logout.php        # Logout user
+│── users/
+│   ├── index.php         # User Dashboard
+│   ├── orders.php        # View past orders
+│   ├── cart.php          # Shopping cart
+│   ├── profile.php       # User profile
+│── auth/
+│   ├── login.php         # User login
+│   ├── register.php      # User registration
+│   ├── logout.php        # Logout user
+│── products/
+│   ├── index.php         # List all products
+│   ├── details.php       # Product details page
+│── cart/
+│   ├── add_to_cart.php   # Add product to cart
+│   ├── view_cart.php     # View cart
+│   ├── remove_item.php   # Remove item from cart
+│── orders/
+│   ├── place_order.php   # Place an order
+│   ├── order_details.php # Order details
+│── payments/
+│   ├── payment.php       # Payment processing
+│   ├── success.php       # Payment success page
+│   ├── failure.php       # Payment failure page
+│── tickets/
+│   ├── create_ticket.php # Create new support ticket
+│   ├── view_ticket.php   # View tickets
+│── reviews/
+│   ├── add_review.php    # Add review
+│   ├── view_reviews.php  # View product reviews
+│── api/
+│   ├── get_products.php  # Fetch products via API
+│   ├── get_cart.php      # Fetch cart details via API
+│── index.php             # Home Page
+
